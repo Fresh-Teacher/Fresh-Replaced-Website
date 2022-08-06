@@ -1,2 +1,2 @@
 # Fresh-Teacher.github.io
-This is the official github repository of Fresh Teacher
+This website is live at https://freshteacher.software/
