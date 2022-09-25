@@ -1,2 +1,2 @@
-# This repository is live at https://freshteacher.tech/
+# This repository is live at fresh-teacher.github.io
 
