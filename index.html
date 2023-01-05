@@ -23,6 +23,22 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="google-site-verification" content="eG8z6w5abEjbCwlB_W6VOwXBpafkoLwgdeRn4RxZIRA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Add the WhatsApp widget script -->
+  <script src="https://www.whatsapp.com/widget/button.js"></script>
+  <title>Fresh Teacher Software</title>
+
+  <!-- Add the WhatsApp widget script -->
+  <script src="https://www.whatsapp.com/widget/button.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+  <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Add the Font Awesome stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+     integrity="sha512-SU8NQG5jvGgf5N5YnH8W5Mj/v/4gX4n4/KjIz+8pTJTBoTIKTnT2QjKl8f+e3mqLm9XN/vMnBzjaw2b1cg=="
+     crossorigin="anonymous" />
 
   <title>Fresh Teacher Software</title>
   <meta content="This software was developed by Fresh Teacher Technologies and it runs on Fresh Teacher's e-learning Platform which was created by Mutumba Jesse Paul aka Fresh Teacher who is both a Teacher and a Software Engineer." name="description">
@@ -49,15 +65,6 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -67,255 +74,160 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div data-aos="fade-in">
-        <div class="hero-logo">
-          <img class="" src="assets/img/logo.png" alt="Imperial">
-        </div>
+    <!-- Add a WhatsApp message icon -->
+   <a href="https://api.whatsapp.com/send?phone=+256750687790&text=Hi%20Fresh%20Teacher" id="whatsapp-icon">
 
-        <h1>fresh teacher technologies</h1>
-        <h2>We deal in <span class="typed" data-typed-items="Lesson Notes., Schemes of Work., Past Papers., EMIS Registration., TMIS Registration., Graphics Design., Web Design., App Development. "></span></h2>
-        <div class="actions">
-          <p style="font-size:30px">CHOOSE ONE LEVEL:</p>
-          <a href="https://freshteacher.software/nursery/" class="btn-get-started">Nursery</a>
-          <a href="https://freshteacher.software/primary/" class="btn-get-started">Primary </a>
-          <a href="https://freshteacher.software/secondary/" class="btn-get-started">Secondary</a>
-          
-         
-        </div>
-      </div>
-    </div>
-  </section><!-- End Hero -->
+    <!-- Use the font awesome WhatsApp icon -->
+    <i class="fab fa-whatsapp fa-phone"></i> </a>
+
+     <!-- Navigation drawer trigger button -->
+   <button id="nav-drawer-trigger"><i class="fas fa-bars"></i></button>
+
+   <!-- Navigation drawer -->
+   <nav id="nav-drawer">
+      <!-- Navigation links -->
+      <a href="#"><br><br><br>Nursery</a>
+      <a href="#">Primary</a>
+      <a href="#">Secondary</a>
+   </nav>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.jpg" alt=""></a>
-      <!-- Uncomment below if you prefer to use a text logo -->
-      <!-- <h1 class="logo mr-auto"><a href="index.html">Imperial</a></h1> -->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Products & Services</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+ 
+  <header>
+    <div class="container">
+        <!-- <h1>Fresh App</h1> -->
+        <!-- Search Box -->
+        <div class="search-box">
+            <form action="" onsubmit="return false">
+                <input type="text" id="search" placeholder="Type a keyword here to search..." />
+            </form>
+        </div>
+        <!-- Buttons -->
+       <div class="filter-box">
+            <a href="#" class="btn active" data-filter="all">All</a>
+            <a href="#" class="btn" data-filter="schemes">Schemes</a>
+            <a href="#" class="btn" data-filter="notes">Notes</a>
+            <a href="#" class="btn" data-filter="papers">Papers</a>
+        </div>
     </div>
-  </header><!-- End Header -->
+</header>
 
-  <main id="main">
+<main>
+    <br><br><br><br>
+    <div class="main-container">
+        <section class="container" id="store-products">
+              <!-- Single product - exams -->
+              <div class="store-product exams">
+                <div class="product-details">
+                   <h2>NURSERY EXAMS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> 
 
-    <!-- ======= Services Section ======= -->
-    <section id="services">
-      <div class="container">
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-12">
-            <h3 class="section-title">products</br>& </br>services</h3>
-            <div class="section-title-divider"></div>
-            <p class="section-description">Choose any of the services provided below to continue.
-          </div>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><iconify-icon icon="line-md:document-list-twotone" width="50"></iconify-icon></div>
-            <h4 class="service-title"><a href="https://sites.google.com/view/freshteacheruganda/schemes-of-work?authuser=0">Schemes of Work</a></h4>
-            <p class="service-description">A schemes of work is a topical breakdown of content to be covered over a specified period of time.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><iconify-icon icon="line-md:text-box-multiple-twotone" width="50"></iconify-icon></div>
-            <h4 class="service-title"><a href="https://sites.google.com/view/freshteacheruganda/lesson-notes-sections?authuser=0">Lesson Notes</a></h4>
-            <p class="service-description">Lesson Notes are comprehensive notations which assist the memory of the teacher and ensure that all the relevant information is shared to the learners.</p>
-</p>
-          </div>
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><iconify-icon icon="line-md:clipboard-list-twotone" width="50"></iconify-icon></div>
-            <h4 class="service-title"><a href="https://teacherjessepaul.blogspot.com/2020/05/past-papers.html">Past Papers</a></h4>
-            <p class="service-description">We provide past papers which help during revision and understanding the questioning techniques.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><iconify-icon icon="line-md:emoji-grin" width="50"></iconify-icon></div>
-            <h4 class="service-title"><a href="https://freshteacher.software/games/">Games</a></h4>
-            <p class="service-description">Since work without play makes Jack a dull boy, we have online games to play during leisure time.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><iconify-icon icon="line-md:image" width="50"></iconify-icon></div>
-            <h4 class="service-title"><a href="https://teacherjessepaul.blogspot.com/2021/10/luganda-translated-movies.html">Multimedia</a></h4>
-            <p class="service-description">We also provide edutainment through educative movies, songs and photos.</p>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><iconify-icon icon="line-md:account-add" width="50"></iconify-icon></div>
-            <h4 class="service-title"><a href="https://studentsoftheworld.info/penpals/penpal_ads.php?LIGNE=25&Pays_Choisi=UGA&CY=Uganda">Penpals</a></h4>
-            <p class="service-description">You can connect to thousands of friends all over the world! </p>
-          </div>
-          <div class="col-lg-4 col-md-6 service-item">
-            <div class="service-icon"><iconify-icon icon="simple-icons:convertio" width="50"></iconify-icon></div>
-            <h4 class="service-title"><a href="https://freshteacher.software/binary-text-convertor">Convertor</a></h4>
-            <p class="service-description">Easily convert text to binary and vice versa.</p>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Subscrbe Section ======= -->
-    <section id="subscribe">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-md-8">
-            <h3 class="subscribe-title">Contact US</h3>
-            <p class="subscribe-text">You can easily get in touch with us today by sending a WhatsApp Message!</p>
-          </div>
-          <div class="col-md-4 subscribe-btn-container">
-            <a class="subscribe-btn" href="https://api.whatsapp.com/send?phone=+256750687790&text=Hi%20Fresh%20Teacher">Send Message</a>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Subscrbe Section -->
-
-     <!-- ======= About Section ======= -->
-    <section id="about">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title">About Us</h3>
-            <div class="section-title-divider"></div>
-            <p class="section-description">Below is a short historical background of <em><strong>Fresh Teacher Technologies.</strong></em>
-</div>
-        </div>
-      </div>
-      <div class="container about-container" data-aos="fade-up" data-aos-delay="200">
-        <div class="row">
-
-          <div class="col-lg-6 about-img">
-            <img src="assets/img/about-img.jpg" alt="">
-          </div>
-
-          <div class="col-md-6 about-content">
-            <h2 class="about-title">More About Us</h2>
-            <p class="about-text">
-            This organisation was founded in 2016 under the brand name of <em><strong>e-Learning Platform</strong></em> but it later rebranded to a more descriptive name, <em><strong>Fresh Teacher Technologies</strong></em> in 2021. This new name brought out a better image of the organisation's services because it had gone beyond providing education services to providing more advanced technical services.
-            </p>
-            <p class="about-text">
-              Our website has been changing with time depending on the technology trends and it is running on the most recent technologies. If your device is not compatible with this website, please use the old version of our website.
-            </p>
-            <p class="about-text">
+             <!-- Single product - schemes -->
+             <div class="store-product schemes">
+                <div class="product-details">
+                   <h2>NURSERY SCHEMES</h2>
+                   <p> Schemes of Work</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> 
              
-            </p>
-          </div>
+             <!-- Single product - notes -->
+             <div class="store-product notes">
+               <div class="product-details">
+                  <h2>NURSERY NOTES</h2>
+                  <p> Lesson Notes</p>
+                     <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                  </div>
+            </div> 
+             <!-- Single product - papers -->
+             <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> 
+              <!-- Single product - papers -->
+              <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> 
+             <!-- Single product - papers -->
+             <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> 
+              <!-- Single product - papers -->
+              <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> <!-- Single product - papers -->
+             <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> 
+              <!-- Single product - papers -->
+              <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> <!-- Single product - papers -->
+             <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> 
+              <!-- Single product - papers -->
+              <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> 
+             <!-- Single product - papers -->
+             <div class="store-product papers">
+                <div class="product-details">
+                   <h2>NURSERY PAST PAPERS</h2>
+                   <p> Past Papers</p>
+                      <a href="https://drive.google.com/file/d/1Q1gOnS79lKhJOlHQFRUYk8U1JADYMhkK/view?usp=sharing"> <i class="fas fa-book-reader"></i> <strong>View Document</strong></a>
+                   </div>
+             </div> <br><br><br><br><br><br><br>
+        </section>
+        <div class="container no-result">
+                           <p>No more files to display! Try searching using a different keyword...</p>
+
         </div>
-      </div>
-    </section><!-- End About Section -->
+    </div>
+</main>
 
-    <!-- ======= Team Section ======= -->
-    <section id="team">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title">Our Team</h3>
-            <div class="section-title-divider"></div>
-            <p class="section-description">Below are the brains behind this organisation!</p>
-          </div>
-        </div>
+<!-- Sticky bottom navigation bar -->
+<nav id="navbar">
+<a href="https://freshteacher.software/nursery" class="selected">Nursery</a>
+<a href="https://freshteacher.software/primary">Primary</a>
+<a href="https://freshteacher.software/secondary">Secondary</a>
+</nav>
 
-        <div class="row">
-          <div class="col-md-3">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" alt=""></div>
-              <h4>Mutumba Jesse Paul</h4>
-              <span>Chief Executive Officer</span>
-              <div class="social">
-                <a href="mailto:%20jessethecomedian@gmail.com"><i class="bi bi-envelope-paper"></i></a>
-                <a href="sms:0750687790"><i class="bi bi-chat-right-text"></i></a>
-                <a href="wtai://wp/mc;+256750687790"><i class="bi bi-phone"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=+256786812837&text=Hi%20Fresh%20Teacher"><i class="bi bi-whatsapp"></i></a>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </section><!-- End Team Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact">
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="section-title">Contact Us</h3>
-            <div class="section-title-divider"></div>
-            <p class="section-description">Use the contact details provided below to get in touch with us today.</p>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-md-4">
-            <div class="info">
-              <div>
-                <i class="bi bi-geo-alt"></i>
-                <p>MIIC<br>COSIS</p>
-              </div>
-
-              <div>
-                <i class="bi bi-envelope"></i>
-                <p>freshteacher.tech@gmail.com</p>
-              </div>
-
-              <div>
-                <i class="bi bi-phone"></i>
-                <p>+256750687790<br>+256786812837</p>
-              </div>
-
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
- <!-- ======= Footer ======= -->
-  <footer id="footer">
-        <div class="row" style="background: linear-gradient(black 36%, rgb(250,255,0) 39%, rgb(250,246,0) 60%, #ff0000 72%, rgb(255,0,0) 79%);">
-  <div class="col-md-6 col-lg-8 mx-auto">
-      <ul class="list-inline text-center">
-          <li class="list-inline-item"><a href="http://www.facebook.com/100005156149293"><span class="fa-stack fa-lg"><iconify-icon icon="logos:facebook" width="50"></iconify-icon></span></a></li>
-          <li class="list-inline-item"><a href="http://www.twitter.com/jesse_comedian"><span class="fa-stack fa-lg"><iconify-icon icon="logos:twitter" width="50"></iconify-icon></span></a></li>
-         <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=+256750687790&amp;text=Hi%20Fresh%20Teacher"><span class="fa-stack fa-lg"><iconify-icon icon="logos:whatsapp-icon" width="50"></iconify-icon></span></a></li>
-          <li class="list-inline-item"><a href="https://chat.openai.com/chat"><span class="fa-stack fa-lg"><iconify-icon icon="akar-icons:github-fill" width="50"></iconify-icon></span></a></li>
-      </ul>
-      <footer class="text-center">
-          <div class="credits"><br>
-              Made with
-              <iconify-icon icon="emojione-v1:heart-left-tip"></iconify-icon>
-              by
-              <a href="https://freshteacher.tech"> Fresh Teacher
-              </a><br />0750687790 / 0786812837<br />©Fresh Teacher Technologies
-          </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+<script src="script.js"></script>
 </body>
 
 </html>
